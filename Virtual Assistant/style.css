@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fredoka:wght@300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Guerrilla&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    text-align: center;
+    align-items:  center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:black;
+}
+img{
+    width: 380px;
+    
+    
+}
+.btn-box{
+    background-image: url(ai-1.gif);
+    width: 320px;
+    height: 320px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: white;
+    padding: 13px;
+    border: 5px solid #008CF7;
+    border-radius: 50%;
+    font-size: 80px;
+    color: #008CF7;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 140, 247, 0.7), 
+        0 0 30px rgba(0, 140, 247, 0.5), 
+        0 0 45px rgba(0, 140, 247, 0.3);
+}
+
+button:hover {
+    box-shadow: 0 0 25px rgb(225, 244, 84), 
+        0 0 50px rgba(30, 233, 205, 0.7), 
+        0 0 75px rgba(30, 233, 205, 0.7);
+    transform: scale(1.05);
+}
+h1{
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+   font-size: 40px;
+    font-family: "Protest Guerrilla", serif; 
+      
+}
+#name{
+    color: rgb(212, 43, 122);
+    font-size: 45px; 
+}
+#va{
+    color: rgb(9, 247, 239);
+    font-size: 45px; 
+}
+#decorate{
+    behavior: scroll;
+
+}
